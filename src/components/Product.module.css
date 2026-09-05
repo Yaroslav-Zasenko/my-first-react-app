@@ -1,0 +1,87 @@
+/* src/components/Product.module.css */
+
+.container {
+    width: 300px;
+    /* Тепер УСІ картки будуть рівно 300px */
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    /* flex-shrink: 0 завадить карткам стискатися, якщо їм замало місця */
+    flex-shrink: 0;
+}
+
+.container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a202c;
+    margin: 0 0 12px 0;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 1rem;
+    color: #4a5568;
+    margin: 0 0 16px 0;
+}
+
+.price span {
+    font-weight: 700;
+    color: #2b6cb0;
+}
+
+/* Стилі для кнопки */
+.button {
+    width: 100%;
+    padding: 10px 16px;
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+    background-color: #2b6cb0;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.quantityText {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+/* Стиль для заблокованої кнопки */
+.button:disabled {
+    background-color: #cbd5e0;
+    cursor: not-allowed;
+    transform: none;
+}

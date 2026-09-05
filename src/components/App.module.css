@@ -1,0 +1,54 @@
+/* src/components/App.module.css */
+
+.container {
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+    color: #1a202c;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 12px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.summary {
+    margin-top: 32px;
+    padding: 16px 24px;
+    background-color: #edf2f7;
+    border-radius: 8px;
+    text-align: right;
+    border-top: 2px solid #cbd5e0;
+}
+
+.summary h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin: 0;
+}
+
+.clearButton {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.clearButton:hover {
+    background-color: #c53030;
+}
