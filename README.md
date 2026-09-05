@@ -33,3 +33,5 @@ A mini e-commerce web application built to practice and solidify core **React** 
    ```bash
    git clone [https://github.com/Yaroslav-Zasenko/my-first-react-app.git](https://github.com/Yaroslav-Zasenko/my-first-react-app.git)
    cd my-first-react-app
+
+   🚀 **[View Live Demo](https://my-first-react-app-phi-ten.vercel.app)**
