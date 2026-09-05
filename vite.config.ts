@@ -10,7 +10,7 @@ export default defineConfig({
       presets: [reactCompilerPreset()],
     }),
   ],
-  base: "/my-first-react-app/",
+ // base: "/my-first-react-app/",
   build: {
     sourcemap: true,
   },
